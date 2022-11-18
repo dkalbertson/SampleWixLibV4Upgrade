@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"
-     xmlns:util="http://schemas.microsoft.com/wix/UtilExtension">
+﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs" xmlns:util="http://wixtoolset.org/schemas/v4/wxs/util">
 	<Fragment>
     <util:RegistrySearch Id="VCv14MAJORRUNTIMEINSTALLED" Variable="VCv14MAJORRUNTIMEINSTALLED" Root="HKLM" Key="SOFTWARE\Microsoft\VisualStudio\14.0\VC\Runtimes\x64" Value="Major" Result="value" />
 
